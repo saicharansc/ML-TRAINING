@@ -1,0 +1,142 @@
+2025-08-15 19:14:15,918 - INFO - 🚀 Starting Comprehensive Scikit-Learn ML Demo
+2025-08-15 19:14:15,918 - INFO - ============================================================
+2025-08-15 19:14:15,918 - INFO - ML Trainer initialized with output directory: outputs
+2025-08-15 19:14:15,918 - INFO - 🔄 Loading sample datasets...
+2025-08-15 19:14:15,922 - INFO - Downloading Cal. housing from https://ndownloader.figshare.com/files/5976036 to /tmp/scikit_learn_data
+2025-08-15 19:14:17,766 - INFO - ✅ Loaded 6 datasets:
+2025-08-15 19:14:17,766 - INFO -    - iris: Iris flower species classification (3 classes, 4 features)
+2025-08-15 19:14:17,766 - INFO -    - wine: Wine quality classification (3 classes, 13 features)
+2025-08-15 19:14:17,766 - INFO -    - breast_cancer: Breast cancer diagnosis (2 classes, 30 features)
+2025-08-15 19:14:17,766 - INFO -    - diabetes: Diabetes progression prediction (1 target, 10 features)
+2025-08-15 19:14:17,766 - INFO -    - california_housing: California housing prices prediction (1 target, 8 features)
+2025-08-15 19:14:17,766 - INFO -    - synthetic: Synthetic binary classification (2 classes, 10 features)
+2025-08-15 19:14:17,766 - INFO - 
+🔍 Dataset Exploration Phase
+2025-08-15 19:14:17,766 - INFO - 🔍 Exploring dataset: iris
+2025-08-15 19:14:17,766 - INFO -    📊 Dataset Info:
+2025-08-15 19:14:17,766 - INFO -       - Samples: 150
+2025-08-15 19:14:17,766 - INFO -       - Features: 4
+2025-08-15 19:14:17,766 - INFO -       - Classes/Targets: 3
+2025-08-15 19:14:17,766 - INFO -       - Type: classification
+2025-08-15 19:14:18,038 - INFO -    📈 Exploration plot saved: outputs/plots/iris_exploration.png
+2025-08-15 19:14:18,038 - INFO - 🔍 Exploring dataset: wine
+2025-08-15 19:14:18,038 - INFO -    �� Dataset Info:
+2025-08-15 19:14:18,038 - INFO -       - Samples: 178
+2025-08-15 19:14:18,038 - INFO -       - Features: 13
+2025-08-15 19:14:18,038 - INFO -       - Classes/Targets: 3
+2025-08-15 19:14:18,038 - INFO -       - Type: classification
+2025-08-15 19:14:18,269 - INFO -    📈 Exploration plot saved: outputs/plots/wine_exploration.png
+2025-08-15 19:14:18,269 - INFO - 🔍 Exploring dataset: diabetes
+2025-08-15 19:14:18,269 - INFO -    📊 Dataset Info:
+2025-08-15 19:14:18,269 - INFO -       - Samples: 442
+2025-08-15 19:14:18,269 - INFO -       - Features: 10
+2025-08-15 19:14:18,269 - INFO -       - Classes/Targets: 214
+2025-08-15 19:14:18,269 - INFO -       - Type: regression
+2025-08-15 19:14:18,539 - INFO -    📈 Exploration plot saved: outputs/plots/diabetes_exploration.png
+2025-08-15 19:14:18,540 - INFO - 
+🎯 Classification Training Phase
+2025-08-15 19:14:18,540 - INFO - 🎯 Training classification models on: iris
+2025-08-15 19:14:18,540 - INFO -    🔄 Training Logistic Regression...
+2025-08-15 19:14:18,550 - INFO -       ✅ Accuracy: 0.9333, F1: 0.9333, CV: 0.9583(±0.0264)
+2025-08-15 19:14:18,550 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:18,754 - INFO -       ✅ Accuracy: 0.9000, F1: 0.8997, CV: 0.9500(±0.0167)
+2025-08-15 19:14:18,754 - INFO -    🔄 Training Decision Tree...
+2025-08-15 19:14:18,759 - INFO -       ✅ Accuracy: 0.9333, F1: 0.9333, CV: 0.9417(±0.0204)
+2025-08-15 19:14:18,759 - INFO -    🔄 Training SVM...
+2025-08-15 19:14:18,764 - INFO -       ✅ Accuracy: 0.9667, F1: 0.9666, CV: 0.9667(±0.0312)
+2025-08-15 19:14:18,764 - INFO -    🔄 Training K-Nearest Neighbors...
+2025-08-15 19:14:18,771 - INFO -       ✅ Accuracy: 1.0000, F1: 1.0000, CV: 0.9750(±0.0333)
+2025-08-15 19:14:18,771 - INFO -    �� Best model: K-Nearest Neighbors (Accuracy: 1.0000)
+2025-08-15 19:14:19,337 - INFO -    📈 Plots saved: outputs/plots/iris_classification_results.png, outputs/plots/iris_confusion_matrix.png
+2025-08-15 19:14:19,353 - INFO -    💾 Models saved to: outputs/models/iris_classification
+2025-08-15 19:14:19,353 - INFO - 🎯 Training classification models on: wine
+2025-08-15 19:14:19,353 - INFO -    🔄 Training Logistic Regression...
+2025-08-15 19:14:19,365 - INFO -       ✅ Accuracy: 0.9722, F1: 0.9720, CV: 0.9860(±0.0172)
+2025-08-15 19:14:19,365 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:19,584 - INFO -       ✅ Accuracy: 1.0000, F1: 1.0000, CV: 0.9862(±0.0276)
+2025-08-15 19:14:19,584 - INFO -    🔄 Training Decision Tree...
+2025-08-15 19:14:19,590 - INFO -       ✅ Accuracy: 0.9444, F1: 0.9450, CV: 0.9163(±0.0514)
+2025-08-15 19:14:19,590 - INFO -    🔄 Training SVM...
+2025-08-15 19:14:19,595 - INFO -       ✅ Accuracy: 0.9722, F1: 0.9720, CV: 0.9862(±0.0276)
+2025-08-15 19:14:19,595 - INFO -    🔄 Training K-Nearest Neighbors...
+2025-08-15 19:14:19,603 - INFO -       ✅ Accuracy: 0.8056, F1: 0.8066, CV: 0.7108(±0.0588)
+2025-08-15 19:14:19,603 - INFO -    �� Best model: Random Forest (Accuracy: 1.0000)
+2025-08-15 19:14:20,133 - INFO -    📈 Plots saved: outputs/plots/wine_classification_results.png, outputs/plots/wine_confusion_matrix.png
+2025-08-15 19:14:20,149 - INFO -    💾 Models saved to: outputs/models/wine_classification
+2025-08-15 19:14:20,149 - INFO - 🎯 Training classification models on: breast_cancer
+2025-08-15 19:14:20,149 - INFO -    🔄 Training Logistic Regression...
+2025-08-15 19:14:20,164 - INFO -       ✅ Accuracy: 0.9825, F1: 0.9825, CV: 0.9802(±0.0128)
+2025-08-15 19:14:20,164 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:20,548 - INFO -       ✅ Accuracy: 0.9561, F1: 0.9560, CV: 0.9538(±0.0235)
+2025-08-15 19:14:20,548 - INFO -    🔄 Training Decision Tree...
+2025-08-15 19:14:20,570 - INFO -       ✅ Accuracy: 0.9123, F1: 0.9130, CV: 0.9099(±0.0189)
+2025-08-15 19:14:20,571 - INFO -    🔄 Training SVM...
+2025-08-15 19:14:20,581 - INFO -       ✅ Accuracy: 0.9825, F1: 0.9825, CV: 0.9714(±0.0179)
+2025-08-15 19:14:20,581 - INFO -    �� Training K-Nearest Neighbors...
+2025-08-15 19:14:20,676 - INFO -       ✅ Accuracy: 0.9123, F1: 0.9127, CV: 0.9363(±0.0189)
+2025-08-15 19:14:20,676 - INFO -    �� Best model: Logistic Regression (Accuracy: 0.9825)
+2025-08-15 19:14:21,211 - INFO -    📈 Plots saved: outputs/plots/breast_cancer_classification_results.png, outputs/plots/breast_cancer_confusion_matrix.png
+2025-08-15 19:14:21,227 - INFO -    💾 Models saved to: outputs/models/breast_cancer_classification
+2025-08-15 19:14:21,227 - INFO - 🎯 Training classification models on: synthetic
+2025-08-15 19:14:21,227 - INFO -    🔄 Training Logistic Regression...
+2025-08-15 19:14:21,236 - INFO -       ✅ Accuracy: 0.8550, F1: 0.8548, CV: 0.8088(±0.0297)
+2025-08-15 19:14:21,236 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:21,710 - INFO -       ✅ Accuracy: 0.9500, F1: 0.9500, CV: 0.9288(±0.0166)
+2025-08-15 19:14:21,710 - INFO -    🔄 Training Decision Tree...
+2025-08-15 19:14:21,727 - INFO -       ✅ Accuracy: 0.9050, F1: 0.9050, CV: 0.8938(±0.0285)
+2025-08-15 19:14:21,727 - INFO -    🔄 Training SVM...
+2025-08-15 19:14:21,752 - INFO -       ✅ Accuracy: 0.9200, F1: 0.9200, CV: 0.9138(±0.0232)
+2025-08-15 19:14:21,752 - INFO -    🔄 Training K-Nearest Neighbors...
+2025-08-15 19:14:21,773 - INFO -       ✅ Accuracy: 0.9250, F1: 0.9250, CV: 0.8988(±0.0199)
+2025-08-15 19:14:21,773 - INFO -    �� Best model: Random Forest (Accuracy: 0.9500)
+2025-08-15 19:14:22,341 - INFO -    📈 Plots saved: outputs/plots/synthetic_classification_results.png, outputs/plots/synthetic_confusion_matrix.png
+2025-08-15 19:14:22,357 - INFO -    💾 Models saved to: outputs/models/synthetic_classification
+2025-08-15 19:14:22,357 - INFO - 
+📈 Regression Training Phase
+2025-08-15 19:14:22,357 - INFO - 📈 Training regression models on: diabetes
+2025-08-15 19:14:22,357 - INFO -    🔄 Training Linear Regression...
+2025-08-15 19:14:22,360 - INFO -       ✅ RMSE: 53.8534, R²: 0.4526, CV: 0.4493(±0.1441)
+2025-08-15 19:14:22,360 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:22,806 - INFO -       ✅ RMSE: 54.3324, R²: 0.4428, CV: 0.3909(±0.1488)
+2025-08-15 19:14:22,806 - INFO -    �� Training SVR...
+2025-08-15 19:14:22,818 - INFO -       ✅ RMSE: 65.8235, R²: 0.1822, CV: 0.1120(±0.0168)
+2025-08-15 19:14:22,819 - INFO -    🏆 Best model: Linear Regression (R²: 0.4526)
+2025-08-15 19:14:23,236 - INFO -    📈 Plot saved: outputs/plots/diabetes_regression_results.png
+2025-08-15 19:14:23,249 - INFO -    💾 Models saved to: outputs/models/diabetes_regression
+2025-08-15 19:14:23,249 - INFO - 📈 Training regression models on: california_housing
+2025-08-15 19:14:23,250 - INFO -    🔄 Training Linear Regression...
+2025-08-15 19:14:23,267 - INFO -       ✅ RMSE: 0.7456, R²: 0.5758, CV: 0.6115(±0.0065)
+2025-08-15 19:14:23,267 - INFO -    🔄 Training Random Forest...
+2025-08-15 19:14:49,640 - INFO -       ✅ RMSE: 0.5065, R²: 0.8042, CV: 0.8047(±0.0056)
+2025-08-15 19:14:49,640 - INFO -    🔄 Training SVR...
+2025-08-15 19:15:03,880 - INFO -       ✅ RMSE: 0.5975, R²: 0.7276, CV: 0.7368(±0.0048)
+2025-08-15 19:15:03,880 - INFO -    🏆 Best model: Random Forest (R²: 0.8042)
+2025-08-15 19:15:04,439 - INFO -    📈 Plot saved: outputs/plots/california_housing_regression_results.png
+2025-08-15 19:15:04,479 - INFO -    💾 Models saved to: outputs/models/california_housing_regression
+2025-08-15 19:15:04,479 - INFO - 
+�� Hyperparameter Tuning Demo
+2025-08-15 19:15:04,479 - INFO - 🔧 Hyperparameter tuning demo on: iris
+2025-08-15 19:15:04,479 - INFO -    🔄 Performing grid search...
+2025-08-15 19:15:06,709 - INFO -    ✅ Best CV score: 0.9500
+2025-08-15 19:15:06,709 - INFO -    🏆 Best parameters: {'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 50}
+2025-08-15 19:15:06,710 - INFO -    📊 Test accuracy: 1.0000
+2025-08-15 19:15:06,710 - INFO - 📋 Creating summary report...
+2025-08-15 19:15:06,721 - INFO -    📊 Summary report saved: outputs/summary_report.json
+2025-08-15 19:15:06,721 - INFO - ==================================================
+2025-08-15 19:15:06,721 - INFO - 🎉 EXPERIMENT SUMMARY
+2025-08-15 19:15:06,721 - INFO - ==================================================
+2025-08-15 19:15:06,721 - INFO - Datasets explored: 6
+2025-08-15 19:15:06,721 - INFO - Total models trained: 26
+2025-08-15 19:15:06,721 - INFO - Experiments completed: 6
+2025-08-15 19:15:06,721 - INFO - 
+🏆 Best Models:
+2025-08-15 19:15:06,721 - INFO -    iris_classification: K-Nearest Neighbors (accuracy: 1.0000)
+2025-08-15 19:15:06,721 - INFO -    wine_classification: Random Forest (accuracy: 1.0000)
+2025-08-15 19:15:06,721 - INFO -    breast_cancer_classification: Logistic Regression (accuracy: 0.9825)
+2025-08-15 19:15:06,721 - INFO -    synthetic_classification: Random Forest (accuracy: 0.9500)
+2025-08-15 19:15:06,721 - INFO -    diabetes_regression: Linear Regression (r2_score: 0.4526)
+2025-08-15 19:15:06,721 - INFO -    california_housing_regression: Random Forest (r2_score: 0.8042)
+2025-08-15 19:15:06,721 - INFO - 
+✅ Demo completed successfully!
+2025-08-15 19:15:06,721 - INFO - Check the outputs directory for saved models, plots, and reports.
+
