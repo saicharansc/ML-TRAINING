@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/saicharanneerumalla/Desktop/ML/ML-TRAINING/04_MLFLOW_Demo/outputs/mlflow-artifacts/c95889c465e24c57ac6ac5d2e4a8dafb/artifacts
+end_time: 1755587577485
+entry_point_name: ''
+experiment_id: '149567734285624830'
+lifecycle_stage: active
+run_id: c95889c465e24c57ac6ac5d2e4a8dafb
+run_name: RandomForest_003
+run_uuid: c95889c465e24c57ac6ac5d2e4a8dafb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755587575765
+status: 3
+tags: []
+user_id: saicharanneerumalla

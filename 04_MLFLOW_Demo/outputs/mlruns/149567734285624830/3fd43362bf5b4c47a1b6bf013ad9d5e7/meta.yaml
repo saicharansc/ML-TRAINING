@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/saicharanneerumalla/Desktop/ML/ML-TRAINING/04_MLFLOW_Demo/outputs/mlflow-artifacts/3fd43362bf5b4c47a1b6bf013ad9d5e7/artifacts
+end_time: 1755587248963
+entry_point_name: ''
+experiment_id: '149567734285624830'
+lifecycle_stage: active
+run_id: 3fd43362bf5b4c47a1b6bf013ad9d5e7
+run_name: LogisticRegression_004
+run_uuid: 3fd43362bf5b4c47a1b6bf013ad9d5e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755587247453
+status: 3
+tags: []
+user_id: saicharanneerumalla

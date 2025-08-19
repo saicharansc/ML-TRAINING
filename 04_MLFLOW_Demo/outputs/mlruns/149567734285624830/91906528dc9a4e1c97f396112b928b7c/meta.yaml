@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/saicharanneerumalla/Desktop/ML/ML-TRAINING/04_MLFLOW_Demo/outputs/mlflow-artifacts/91906528dc9a4e1c97f396112b928b7c/artifacts
+end_time: 1755587763546
+entry_point_name: ''
+experiment_id: '149567734285624830'
+lifecycle_stage: active
+run_id: 91906528dc9a4e1c97f396112b928b7c
+run_name: KNN_005
+run_uuid: 91906528dc9a4e1c97f396112b928b7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755587761964
+status: 3
+tags: []
+user_id: saicharanneerumalla

@@ -1,0 +1,6 @@
+artifact_location: file:///Users/saicharanneerumalla/Desktop/ML/ML-TRAINING/04_MLFLOW_Demo/outputs/mlflow-artifacts
+creation_time: 1755587214807
+experiment_id: '149567734285624830'
+last_update_time: 1755587214807
+lifecycle_stage: active
+name: scikit-learn-parameter-sweep

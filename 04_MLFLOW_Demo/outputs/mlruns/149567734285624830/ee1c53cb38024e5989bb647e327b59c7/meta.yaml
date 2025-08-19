@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/saicharanneerumalla/Desktop/ML/ML-TRAINING/04_MLFLOW_Demo/outputs/mlflow-artifacts/ee1c53cb38024e5989bb647e327b59c7/artifacts
+end_time: 1755587640679
+entry_point_name: ''
+experiment_id: '149567734285624830'
+lifecycle_stage: active
+run_id: ee1c53cb38024e5989bb647e327b59c7
+run_name: SVM_012
+run_uuid: ee1c53cb38024e5989bb647e327b59c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755587639161
+status: 3
+tags: []
+user_id: saicharanneerumalla
